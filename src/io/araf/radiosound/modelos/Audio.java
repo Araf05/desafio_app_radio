@@ -47,11 +47,11 @@ public class Audio {
         this.clasificacion = clasificacion;
     }
 
-    private void meGusta() {
+    public void meGusta() {
         this.totalDeMeGusta++;
     }
 
-    void reproduce() {
+    public void reproduce() {
         this.totalReproducciones++;
     }
 }
